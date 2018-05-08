@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Water Winners - Fan is the best </title>
+    <meta name="description" content="AR.js">
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <script src="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2FcustomMarker.js?1518804320884"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body style="margin : 0px; overflow: hidden;">
+  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;" >
+    
+    <!-- Eri -->
+    <a-marker id="123" preset="custom" type="pattern" url="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Feri.patt?1518820772453">
+      <a-text position="-0.55 0.9 -0.4" rotation="0 -90 0" width="1" color="white" value="REVIEW:" wrap-count="10"></a-text>
+      <a-text position="0.55 0.9 0.4" rotation="0 90 0" width="1" color="white" value="RATING:" wrap-count="10"></a-text>  
+      <a-box position="0 0.5 0" material="color: #2579B8;" depth="1" height="1" width="1" event-set="" opacity="0.95">
+        <a-animation attribute="scale" dur="1000" from="0.95 0.95 0.95" to="1 1 1" direction="alternate-reverse" easing="ease-in-out-circ" repeat="indefinite">
+        </a-animation>
+      </a-box>
+    </a-marker>
+    
+    <!-- Marc -->
+    <a-marker id="124" preset="custom" type="pattern" url="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Fmarc.patt?1518820772532">
+      <a-text position="-0.55 0.9 -0.4" rotation="0 -90 0" width="1" color="white" value="REVIEW:" wrap-count="10"></a-text>
+      <a-text position="0.55 0.9 0.4" rotation="0 90 0" width="1" color="white" value="RATING:" wrap-count="10"></a-text>  
+      <a-box position="0 0.5 0" material="color: #2579B8;" depth="1" height="1" width="1" event-set="" opacity="0.95">
+        <a-animation attribute="scale" dur="1000" from="0.95 0.95 0.95" to="1 1 1" direction="alternate-reverse" easing="ease-in-out-circ" repeat="indefinite">
+        </a-animation>
+      </a-box>
+    </a-marker>
+    
+    <!--Custom marker - Type: fan-->
+    <a-marker id="125" preset="custom" type="pattern" url="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Ffan.patt?1518802340411">
+      <a-text position="-0.55 0.9 -0.4" rotation="0 -90 0" width="1" color="white" value="REVIEW:" wrap-count="10"></a-text>
+      <a-text position="0.55 0.9 0.4" rotation="0 90 0" width="1" color="white" value="RATING:" wrap-count="10"></a-text>  
+      <a-box position="0 0.5 0" material="color: #2579B8;" depth="1" height="1" width="1" event-set="" opacity="0.95">
+        <!-- <a-text position="-0.55 0.7 0" width="6" height="4" color="white" font="exo2bold" value="iPhone 6"></a-text>
+        <a-text position="-0.4 0 0.55" rotation="0 0 0" width="1" color="white" value="$$$" wrap-count="10"></a-text>
+        <a-text position="-0.55 0 -0.4" rotation="0 -90 0" width="1" color="white" value="The iPhone is a phone" wrap-count="10"></a-text>
+        <a-text position="0.55 0 0.4" rotation="0 90 0" width="1" color="white" value="REVIEW:\nI <3 iPhone" wrap-count="10"></a-text> -->
+        <a-animation attribute="scale" dur="1000" from="0.95 0.95 0.95" to="1 1 1" direction="alternate-reverse" easing="ease-in-out-circ" repeat="indefinite">
+        </a-animation>
+      </a-box>
+    </a-marker>
+    
+    <!--Custom marker - Type: zong -->
+    <a-marker id="126" preset="custom" type="pattern" url="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Fzong.patt?1518814297039">
+      <a-text position="-0.55 0.9 -0.4" rotation="0 -90 0" width="1" color="white" value="REVIEW:" wrap-count="10"></a-text>
+      <a-text position="0.55 0.9 0.4" rotation="0 90 0" width="1" color="white" value="RATING:" wrap-count="10"></a-text>  
+      <a-box position="0 0.5 0" material="color: #2579B8;" depth="1" height="1" width="1" event-set="" opacity="0.95">
+        <a-animation attribute="scale" dur="1000" from="0.95 0.95 0.95" to="1 1 1" direction="alternate-reverse" easing="ease-in-out-circ" repeat="indefinite">
+        </a-animation>
+      </a-box>
+    </a-marker>
+    
+    <!--Custom marker - Type: jose -->
+    <a-marker id="127" preset="custom" type="pattern" url="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Fjose.patt?1518814979002">
+      <a-text position="-0.55 0.9 -0.4" rotation="0 -90 0" width="1" color="white" value="REVIEW:" wrap-count="10"></a-text>
+      <a-text position="0.55 0.9 0.4" rotation="0 90 0" width="1" color="white" value="RATING:" wrap-count="10"></a-text>  
+      <a-box position="0 0.5 0" material="color: #2579B8" depth="1" height="1" width="1" event-set="" opacity="0.95">
+        <a-animation attribute="scale" dur="1000" from="0.95 0.95 0.95" to="1 1 1" direction="alternate-reverse" easing="ease-in-out-circ" repeat="indefinite">
+        </a-animation>
+      </a-box>
+    </a-marker>
+    
+    <a-assets>
+      <a-asset-item id="star-obj" src="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Fstar.obj?1518805423694"></a-asset-item>
+      <a-asset-item id="star-mtl" src="https://cdn.glitch.com/17bb6b13-a581-45f6-a7ec-a190524db3bb%2Fstar.mtl?1518805423639"></a-asset-item>
+    </a-assets>
+    
+    <a-entity obj-model="obj: #star-obj; mtl: #star-mtl" scale="0.01 0.01 0.01" rotation="0 90 0"></a-entity>
+    
+    <!-- add a simple camera -->
+    <a-entity camera></a-entity>
+    
+  </a-scene>
+    
+    
+  <!-- Scripts -->
+    
+  <script src="services/product_service.js"></script>
+    
+  <script src="./script.js"></script>
+  <script src="scripts/cameraFix.js" ></script>
+  <script src="scripts/main.js"></script>
+    
+  </body>
+</html>
